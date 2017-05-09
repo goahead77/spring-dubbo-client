@@ -1,7 +1,7 @@
 package cn.wenqi.springboot.service;
 
 
-import cn.wenqi.dubbo.client.entity.Users;
+import cn.wenqi.springboot.entity.Users;
 
 /**
  * @author wenqi
@@ -9,4 +9,7 @@ import cn.wenqi.dubbo.client.entity.Users;
 public interface UserService {
 
     Users findByUnameAndPwd(String uName, String pwd);
+
+    //interface=cn.wenqi.springboot.service.UserService
+    //interface=cn.wenqi.springboot.service.UserService
 }

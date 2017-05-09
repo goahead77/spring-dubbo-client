@@ -1,7 +1,8 @@
-package cn.wenqi.dubbo.client.entity;
+package cn.wenqi.springboot.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.io.Serializable;
@@ -13,9 +14,10 @@ import java.io.Serializable;
 @Setter
 @Getter
 @AllArgsConstructor
+@NoArgsConstructor
 public class Users implements Serializable {
 
-    private static final long serialVersionUID = 9221111504771052659L;
+    private static final long serialVersionUID = -1L;
     private String uName;
 
     private String password;
